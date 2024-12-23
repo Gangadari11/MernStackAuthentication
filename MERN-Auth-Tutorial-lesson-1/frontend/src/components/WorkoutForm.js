@@ -60,7 +60,7 @@ const WorkoutForm = () => {
         className={emptyFields.includes('title') ? 'error' : ''}
       />
 
-      <label>Load (in kg):</label>
+      <label>Time Spent (in minutes):</label>
       <input 
         type="number"
         onChange={(e) => setLoad(e.target.value)}
@@ -68,7 +68,7 @@ const WorkoutForm = () => {
         className={emptyFields.includes('load') ? 'error' : ''}
       />
 
-      <label>Reps:</label>
+      <label>Mood Rating(1-10):</label>
       <input 
         type="number"
         onChange={(e) => setReps(e.target.value)}
